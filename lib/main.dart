@@ -16,6 +16,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   int currentIndex = 0;
+  //this is the secret to smooth routing
   final screens = [
     const HomePage(),
     const WorksPage(),
